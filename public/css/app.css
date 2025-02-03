@@ -1,0 +1,20 @@
+/* Osnovni stil za navbar stavke */
+.navbar-nav .nav-item .nav-link {
+    color: #6c757d; /* Suptilna siva boja za tekst */
+    padding: 10px 15px;
+    transition: all 0.3s ease; /* Nježna tranzicija */
+}
+
+/* Nježniji hover efekti */
+.navbar-nav .nav-item .nav-link:hover {
+    color: #fff; /* Bijela boja teksta pri hoveru */
+    background-color: #bfbdbd; /* Suptilna plava boja pozadine */
+    transform: scale(1.05); /* Lagano povećanje na hover */
+}
+
+.break-word-column {
+    word-break: break-word;
+    max-width: 300px;
+    overflow-y: auto;
+    white-space: normal; /* Za očuvanje formatiranja, ako ima više linija */
+  }

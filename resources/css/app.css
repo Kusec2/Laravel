@@ -1,0 +1,19 @@
+/* Osnovni stil za navbar stavke */
+.navbar-nav .nav-item .nav-link {
+    color: #6c757d; /* Suptilna siva boja za tekst */
+    padding: 10px 15px;
+    transition: all 0.2s ease; /* Nježna tranzicija */
+}
+
+/* Hover efekti za navbar stavke */
+.navbar-nav .nav-item .nav-link:hover {
+    color: #fff; /* Bijela boja teksta pri hoveru */
+    background-color: #afafaf; /* Suptilna plava boja pozadine */
+    transform: scale(1.05); /* Lagano povećanje na hover */
+}
+
+/* Dodavanje efekta kada je link aktivan */
+.navbar-nav .nav-item .nav-link.active {
+    color: #fff;
+    background-color: #007bff; /* Plava pozadina za aktivne stavke */
+}
